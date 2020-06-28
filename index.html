@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Accounting</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="budget-container">
+
+
+        <div class="budget-header">
+
+            <div class="balance">
+                <div class="title-balance">
+                    Money Balance
+                </div>
+                <div class="value">
+                    <span>$</span>0
+                </div>
+            </div>
+
+            <div class="account">
+                <div class="income-header">
+                    <div class="title">
+                        Income
+                    </div>
+                    <div class="income-total">
+                        <span>$</span>0
+                    </div>
+                </div>
+
+                <div class="graphics">
+                    <a href="https://www.nytimes.com/topic/subject/bitcoin" target="_blank"></a>
+                </div>
+
+                <div class="outcome-header">
+                    <div class="title">
+                        Expense
+                    </div>
+                    <div class="outcome-total">
+                        <span>$</span>0
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="budget-dashboard">
+
+            <div class="dash-title"><a href="https://www.nytimes.com/search?query=Personal+Finance" target="_blank">Personal Finance</a></div>
+            <div class="toggle">
+                <div class="tab3 active">All</div>
+                <div class="tab2">Income</div>
+                <div class="tab1">Expenses</div>
+            </div>
+            <div class="hide" id="income">
+                <ul class="list"></ul>
+                <div class="input">
+                    <input type="text" id="income-title-input" name="title" placeholder="Title">
+                    <input type="number" id="income-amount-input" name="amount" placeholder="$0">
+                    <div class="add-income"><img src="icon/plus.png" alt=""></div>
+                </div>
+            </div>
+            <div class="hide" id="expense">
+                <ul class="list"></ul>
+                <div class="input">
+                    <input type="text" id="expense-title-input" name="title" placeholder="Title">
+                    <input type="number" id="expense-amount-input" name="amount" placeholder="$0">
+                    <div class="add-expense"><img src="icon/plus.png" alt=""></div>
+                </div>
+            </div>
+            <div id="all">
+                <ul class="list"></ul>
+            </div>
+        </div>
+    </div>
+
+
+<script src="app/money.js" type="text/javascript"></script>
+</body>
+</html>
