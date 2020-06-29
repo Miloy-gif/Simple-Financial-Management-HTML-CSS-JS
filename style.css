@@ -36,8 +36,8 @@ a:hover{
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
-    /*outline: none;*/
-    /*vertical-align:bottom;*/
+    outline: none;
+    vertical-align:bottom;
 }
 
 .balance{
@@ -188,8 +188,8 @@ a:hover{
 }
 
 .budget-dashboard #expense .input{
-    position: absolute;
-    width: 360px;
+    /*position: absolute;*/
+    /*width: 360px;*/
     border-top: 1px solid #ccc;
     margin-top: 14px;
 }
@@ -226,7 +226,7 @@ a:hover{
 }
 
 .budget-dashboard #expense ul{
-    width: 360px;
+    /*width: 360px;*/
     height: 285px;
     list-style: none;
     margin: 0;
@@ -284,8 +284,8 @@ a:hover{
 }
 
 .budget-dashboard #income .input{
-    position: absolute;
-    width: 360px;
+    /*position: absolute;*/
+    /*width: 360px;*/
     border-top: 1px solid #ccc;
     margin-top: 14px;
 }
@@ -322,7 +322,7 @@ a:hover{
 }
 
 .budget-dashboard #income ul{
-    width: 360px;
+    /*width: 360px;*/
     height: 285px;
     list-style: none;
     margin: 0;
